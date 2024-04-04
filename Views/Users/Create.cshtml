@@ -1,0 +1,25 @@
+@model User
+
+<h1> Create User</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <div class="col-3 mb-2">
+            <label for="FirstName">First Name:</label>
+            <input type="text" asp-for="FirstName" class="form-control">    
+        </div>
+        <div class="col-3 mb-2">
+            <label for="LastName">Last Name:</label>
+            <input type="text" asp-for="LastName" class="form-control">    
+        </div>
+        <div class="col-3 mb-2">
+            <label for="Email">Email:</label>
+            <input type="text" asp-for="Email" class="form-control">    
+        </div>
+        <div class="col-3 mb-2">
+            <label for="FirstName">BirthDate:</label>
+            <input type="date" asp-for="BirthDate" class="form-control">    
+        </div>
+    </div>
+    <button>send</button>
+</form>

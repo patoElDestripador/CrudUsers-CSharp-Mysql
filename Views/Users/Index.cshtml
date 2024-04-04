@@ -1,0 +1,21 @@
+<a class="btn btn-secondary" asp-Controller="Users" asp-action="Create">Create</a>
+<table>
+    <tr>
+        <td>Id</td>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>Email</td>
+    </tr>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.Id</td>
+            <td>@user.FirstName</td>
+            <td>@user.LastName</td>
+            <td>@user.Email</td>
+            <td><a class="btn btn-primary" asp-controller="Users" asp-action="Details" asp-route-id="@user.Id">Details</a></td>
+            <td><a class="btn btn-primary" asp-controller="Users" asp-action="Delete" asp-route-id="@user.Id">Delete</a></td>
+            <td><a class="btn btn-primary" asp-controller="Users" asp-action="Update" asp-route-id="@user.Id">Update</a></td>
+        </tr>
+    }
+</table>
