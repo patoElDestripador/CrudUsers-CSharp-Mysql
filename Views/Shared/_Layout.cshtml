@@ -3,44 +3,49 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CrudUsers0</title>
+    <title>@ViewData["Title"] - Duck</title>
+        <link rel="shortcut icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSI4Ljc1IiB2aWV3Qm94PSIwIDAgMTAyNCA4OTYiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik01NzAgMzg0aDM4cTEzIDAgMjIuNSA5LjVUNjQwIDQxNnQtOS41IDIyLjVUNjA4IDQ0OGgtMzhxLTEwIDI4LTM0LjUgNDZUNDgwIDUxMnEtNDAgMC02OC0yOHQtMjgtNjh0MjgtNjh0NjgtMjhxMzEgMCA1NS41IDE4dDM0LjUgNDZtNDIyIDY0aC0zNHEtOSAxMDEtNzEuNSAxODYuNVQ3MjUgNzcydC0yMTMgNTl2MzNxMCAxMy05LjUgMjIuNVQ0ODAgODk2dC0yMi41LTkuNVQ0NDggODY0di05OHEtMTA2LTgtMTkyLTU5di03NnE5NyA3MyAyMjQgNzNxNzQgMCAxMzctMTUuNXQxMTEuNS00NnQ3Ni04MC41VDgzMiA0NDhxMC04Ny00Ny0xNjAuNVQ2NTcgMTcxdC0xNzctNDN0LTE3NyA0M3QtMTI4IDExNi41VDEyOCA0NDhIMzJxLTEzIDAtMjIuNS05LjVUMCA0MTZ0OS41LTIyLjVUMzIgMzg0aDM4cTE4LTk4IDg1LTE3NS41VDMyMCA5NFY0MVE0MTIgMCA1MTIgMHExMTYgMCAyMTUuNSA1MXQxNjEgMTM5VDk1OCAzODRoMzRxMTMgMCAyMi41IDkuNXQ5LjUgMjIuNXQtOS41IDIyLjVUOTkyIDQ0OCIvPjwvc3ZnPg==" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/CrudUsers0.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CrudUsers0</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">Users</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom p-3">
+      <div class="col-md-3 mb-md-0 ms-3">
+        <a asp-controller="Home" asp-action="Index" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="43.75" viewBox="0 0 1024 896"><path fill="#000000" d="M570 384h38q13 0 22.5 9.5T640 416t-9.5 22.5T608 448h-38q-10 28-34.5 46T480 512q-40 0-68-28t-28-68t28-68t68-28q31 0 55.5 18t34.5 46m422 64h-34q-9 101-71.5 186.5T725 772t-213 59v33q0 13-9.5 22.5T480 896t-22.5-9.5T448 864v-98q-106-8-192-59v-76q97 73 224 73q74 0 137-15.5t111.5-46t76-80.5T832 448q0-87-47-160.5T657 171t-177-43t-177 43t-128 116.5T128 448H32q-13 0-22.5-9.5T0 416t9.5-22.5T32 384h38q18-98 85-175.5T320 94V41Q412 0 512 0q116 0 215.5 51t161 139T958 384h34q13 0 22.5 9.5t9.5 22.5t-9.5 22.5T992 448"/></svg>
+        </a>
+      </div>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a asp-controller="Home" asp-action="Index" class="nav-link px-2">Home</a></li>
+        <li><a asp-controller="Users" asp-action="Index" class="nav-link px-2">Users</a></li>
+        <li><a asp-controller="Products" asp-action="Index" class="nav-link px-2">Products</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+      </div>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - CrudUsers0 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary">© 2024 Pepe's, Inc</p>
+
+    <a asp-controller="Home" asp-action="Index" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="43.75" viewBox="0 0 1024 896"><path fill="#000000" d="M570 384h38q13 0 22.5 9.5T640 416t-9.5 22.5T608 448h-38q-10 28-34.5 46T480 512q-40 0-68-28t-28-68t28-68t68-28q31 0 55.5 18t34.5 46m422 64h-34q-9 101-71.5 186.5T725 772t-213 59v33q0 13-9.5 22.5T480 896t-22.5-9.5T448 864v-98q-106-8-192-59v-76q97 73 224 73q74 0 137-15.5t111.5-46t76-80.5T832 448q0-87-47-160.5T657 171t-177-43t-177 43t-128 116.5T128 448H32q-13 0-22.5-9.5T0 416t9.5-22.5T32 384h38q18-98 85-175.5T320 94V41Q412 0 512 0q116 0 215.5 51t161 139T958 384h34q13 0 22.5 9.5t9.5 22.5t-9.5 22.5T992 448"/></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+        <li><a asp-controller="Home" asp-action="Index" class="nav-link px-2">Home</a></li>
+        <li><a asp-controller="Users" asp-action="Index" class="nav-link px-2">Users</a></li>
+        <li><a asp-controller="Products" asp-action="Index" class="nav-link px-2">Products</a></li>
+    </ul>
+  </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

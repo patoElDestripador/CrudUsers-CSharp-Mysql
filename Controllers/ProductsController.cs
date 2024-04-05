@@ -17,11 +17,6 @@ namespace CrudUsers0.Controllers
         {
             return View(await _context.Products.ToListAsync());
         }
-
-        public async Task<IActionResult> Details(int? id)
-        {
-            return View(await _context.Products.FirstOrDefaultAsync(element => element.Id == id));
-        }
-
+        
     }
 }

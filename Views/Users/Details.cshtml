@@ -1,18 +1,14 @@
-<a class="btn btn-primary" asp-controller="Users" asp-action="Index">Volver</a>
-<table>
-    <tr>
-        <th>First Name:</th>
-        <td>@Model.FirstName</td>
-    </tr>
-    <tr>
-        <th>Last Name:</th>
-        <td>@Model.LastName</td>
-    </tr>
-    <tr>
-        <th>Email:</th>
-        <td>@Model.Email</td>
-    </tr>
-    <tr>
-        <th>BirthDate:</th>
-        <td>@Model.BirthDate</td>
-</table>
+<div class="d-grid justify-content-md-center">
+    <div class="card" style="width: 18rem;">
+    <img src="https://th.bing.com/th/id/OIP.f8GtChBCSramm9eUL7QO4AHaH-?rs=1&pid=ImgDetMain" height="230px" class="card-img-top w-100" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Info Profile </h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item"><strong>First Name:</strong> @Model.FirstName</li>
+        <li class="list-group-item"><strong>Last Name:</strong> @Model.LastName</li>
+        <li class="list-group-item"><strong>Email:</strong> @Model.Email</li>
+        <li class="list-group-item"><strong>BirthDate:</strong> @Model.BirthDate</li>
+    </ul>
+    </div>
+</div>

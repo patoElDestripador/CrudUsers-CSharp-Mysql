@@ -35,3 +35,4 @@ C:\Users\pipel\Desktop\proyectosR\CrudUsers0\obj\Debug\net8.0\refint\CrudUsers0.
 C:\Users\pipel\Desktop\proyectosR\CrudUsers0\obj\Debug\net8.0\CrudUsers0.pdb
 C:\Users\pipel\Desktop\proyectosR\CrudUsers0\obj\Debug\net8.0\CrudUsers0.genruntimeconfig.cache
 C:\Users\pipel\Desktop\proyectosR\CrudUsers0\obj\Debug\net8.0\ref\CrudUsers0.dll
+C:\Users\pipel\Desktop\proyectosR\CrudUsers0\obj\Debug\net8.0\CrudUsers0.sourcelink.json

@@ -1,24 +1,26 @@
 @model User
 
+
+<form asp-action="Update" method="post" class="d-grid justify-content-md-center">
 <h1>Update User</h1>
-
-<form asp-action="Update" method="post">
     <input type="hidden" asp-for="Id" name="Id" />
-
-    <div class="col-6 mb-2">
+    <div class="col-12 mb-2">
         <label asp-for="FirstName">First Name:</label>
         <input asp-for="FirstName" class="form-control" name="FirstName" />
     </div>
 
-    <div class="col-6 mb-2">
+    <div class="col-12 mb-2">
         <label asp-for="LastName">Last Name:</label>
         <input asp-for="LastName" class="form-control" name="LastName" />
     </div>
 
-    <div class="col-6 mb-2">
+    <div class="col-12 mb-2">
         <label asp-for="Email">Email:</label>
         <input asp-for="Email" class="form-control" name="Email" />
     </div>
 
-    <button class="btn btn-primary">Update</button>
+    <button class="btn btn-success">Update</button>
 </form>
+    <div class="d-grid justify-content-md-center mt-5">
+        <img src="https://imgdb.net/storage/uploads/d9272c3d12a8dd6ae03e3848d4d5f13c997fe1fc75acd6afd0f6b25040a011cd.jpeg" width="200"  alt="avcsa">
+    </div>

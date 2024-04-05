@@ -8,7 +8,8 @@ namespace CrudUsers0.Models
         public string? Description { get; set; }
         public decimal? Price { get; set; }
         public int? Stock { get; set; }
-        public int? CategoryId { get; set; }
+        public DateTime ExpirationDate { get; set; }
+        public int? UserId { get; set; }
     }
 }
 
