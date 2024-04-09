@@ -9,59 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CrudUsers0
 build_property.RootNamespace = CrudUsers0
-build_property.ProjectDir = C:\Users\pipel\Desktop\proyectosR\CrudUsers0\
+build_property.ProjectDir = C:\Users\pipel\Desktop\practica\CrudUsers-CSharp-Mysql\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\pipel\Desktop\proyectosR\CrudUsers0
+build_property.MSBuildProjectDirectory = C:\Users\pipel\Desktop\practica\CrudUsers-CSharp-Mysql
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/Home/Index.cshtml]
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/Home/Privacy.cshtml]
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/Products/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcaW5kZXguY3NodG1s
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/Shared/Error.cshtml]
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/Users/Create.cshtml]
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/UploadFiles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkRmlsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/Users/Details.cshtml]
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/Users/Index.cshtml]
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/Users/Update.cshtml]
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/Users/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/_ViewImports.cshtml]
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/_ViewStart.cshtml]
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pipel/Desktop/proyectosR/CrudUsers0/Views/Shared/_Layout.cshtml]
+[C:/Users/pipel/Desktop/practica/CrudUsers-CSharp-Mysql/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mkbfpbdjr7

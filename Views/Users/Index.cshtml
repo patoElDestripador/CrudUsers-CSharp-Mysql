@@ -1,6 +1,20 @@
-<div class="d-grid d-md-flex justify-content-md-end mb-3">
-<a class="btn btn-success" asp-Controller="Users" asp-action="Create"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 15 18"><path fill="none" stroke="#ffffff" d="M7.5 4v7M4 7.5h7m-3.5 7a7 7 0 1 1 0-14a7 7 0 0 1 0 14Z"/></svg> Create User</a>
+
+
+<div class="d-flex justify-content-between mb-3">
+    <form class="d-flex mb-3 col-10" role="search" asp-action="Search" method="get">
+        <input class="form-control me-2" type="search" placeholder="Search" name="searchString" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    <div class="ms-auto">
+    <a class="btn btn-success " asp-controller="Users" asp-action="Create">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 15 18">
+            <path fill="none" stroke="#ffffff" d="M7.5 4v7M4 7.5h7m-3.5 7a7 7 0 1 1 0-14a7 7 0 0 1 0 14Z" />
+        </svg> Create User
+    </a>
+    </div>
+
 </div>
+
 <table class="table">
   <thead>
     <tr class="">

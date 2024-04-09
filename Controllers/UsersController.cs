@@ -96,6 +96,22 @@ namespace CrudUsers02.Controllers{
             }
             return View(user);// En caso de que no se pueda actualizar debido a que no pasó las validaciones, se vuelve a cargar la información del usuario para poder corregir. 
         }
+
+        public async Task<IActionResult> Search(string? searchString) // Método para Buscar un usuario.
+        {
+        var Searchusers = _context.Users.AsQueryable();//esto lo que hace es preparar una consulta IQueryable que luego puede ser modificada y ejecutada para recuperar los resultados deseados de la base de datos.
+        if (!string.IsNullOrEmpty(searchString))//primero validamos que no este vacio o nulo 
+        {
+        Searchusers = Searchusers.Where(u => u.FirstName.ToLower().Contains(searchString.ToLower()) || u.LastName.ToLower().Contains(searchString.ToLower()) || u.Email.ToLower().Contains(searchString.ToLower()));
+        /*
+        Esta línea de código se utiliza para filtrar los usuarios que cumplan con la condición especificada. el ToLower convierte
+        todo en minuscula para asi obtener mejores resultados en la busqueda
+        */
+        return View("Index", Searchusers.ToList());//retorna el index con los datos encontrados
+        }
+        return RedirectToAction("Index");//En caso de que no encuntre nada acciona el index normal
+        }
+
     }
 
 }

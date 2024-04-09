@@ -1,0 +1,42 @@
+@model List<string>  // El modelo será una lista de nombres de archivo
+
+
+    <div class="d-grid justify-content-md-center">
+        <form asp-controller="UploadFiles" asp-action="Upload2" method="post" enctype="multipart/form-data">
+            <div class="input-group mb-3">
+                <input class="form-control" type="file" id="formFile" name="MyFile">
+                <button for="formFile" type="submit" class="btn btn-outline-primary">Subir</button>
+            </div>
+        </form>
+    </div>
+
+<div class="container mt-3">
+    <h1>Lista de Imágenes</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Imagen</th>
+                <th>Option</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td class="col-8">@(i + 1)</td>
+                    <td>
+                        <img src="~/uploads/@Model[i]" class="img-thumbnail" alt="Imagen @(i + 1)" width="200px" height="200px" />
+                    </td>
+                    <td class="text-center">
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <a class="btn btn-danger" asp-controller="UploadFiles" asp-action="DeleteFile" asp-route-fileName="@Model[i]"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256"><path fill="#ffffff" d="M216 50h-42V40a22 22 0 0 0-22-22h-48a22 22 0 0 0-22 22v10H40a6 6 0 0 0 0 12h10v146a14 14 0 0 0 14 14h128a14 14 0 0 0 14-14V62h10a6 6 0 0 0 0-12M94 40a10 10 0 0 1 10-10h48a10 10 0 0 1 10 10v10H94Zm100 168a2 2 0 0 1-2 2H64a2 2 0 0 1-2-2V62h132Zm-84-104v64a6 6 0 0 1-12 0v-64a6 6 0 0 1 12 0m48 0v64a6 6 0 0 1-12 0v-64a6 6 0 0 1 12 0"/></svg></a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+</div>

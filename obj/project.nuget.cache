@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lnZ7pMXMvOXQuPi6ohrcq2DI+5aPVF7vdSWwK3dpVq1twkIvtGzUR4aCPkvreB6bqa5GwdkDhBMOBHSF7yi0tA==",
+  "dgSpecHash": "yrRM+x7URU5ARaWb/RI6Doz29ktegQ20LqzMYYU5+P1Jli7U1UesA4mJj+AVGpv7lL+p0BUdhDRvYWXtEQPHIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pipel\\Desktop\\proyectosR\\CrudUsers0\\CrudUsers0.csproj",
+  "projectFilePath": "C:\\Users\\pipel\\Desktop\\practica\\CrudUsers-CSharp-Mysql\\CrudUsers0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pipel\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.3\\microsoft.entityframeworkcore.8.0.3.nupkg.sha512",
     "C:\\Users\\pipel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.3\\microsoft.entityframeworkcore.abstractions.8.0.3.nupkg.sha512",

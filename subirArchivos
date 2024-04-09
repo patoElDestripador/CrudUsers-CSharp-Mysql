@@ -1,0 +1,35 @@
+/*Controller*/
+
+*/
+/*---------------------*/
+
+/*Moooodel*/
+/*
+
+*/
+/*---------------------*/
+/*frotn*/
+/*
+
+*/
+/*---------------------*/
+/*buscar */
+/*
+       public async Task<IActionResult> Search(string? searchString)
+        {
+        var users = _context.Companies.AsQueryable();
+        if (!string.IsNullOrEmpty(searchString))
+        {
+            users = users.Where(u => u.Name.Contains(searchString) || u.Nit.Contains(searchString) || u.Address.Contains(searchString) || u.Description.Contains(searchString) || u.Phone.Contains(searchString) || u.LegalRepresentative.Contains(searchString));
+        }
+        return View("index", users.ToList());
+        }
+
+*/
+
+/*Front*/
+
+  <form asp-action="Search" method="get" class="d-flex gap-3">
+    <input type="search" class="form-control" name="searchString" placeholder="Buscar...">
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
