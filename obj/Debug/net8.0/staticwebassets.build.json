@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "atnNFQclcnul0Lx42oi6Sa/L+j7KFARmFdiXDW9TAC4=",
+  "Hash": "iGTvsKLmIhh5BxGSBctjILlIxWUUM+Np2HUt24cMfgo=",
   "Source": "CrudUsers0",
   "BasePath": "_content/CrudUsers0",
   "Mode": "Default",
@@ -1193,25 +1193,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\pipel\\Desktop\\practica\\CrudUsers-CSharp-Mysql\\wwwroot\\Uploads\\a.jpeg",
-      "SourceId": "CrudUsers0",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pipel\\Desktop\\practica\\CrudUsers-CSharp-Mysql\\wwwroot\\",
-      "BasePath": "_content/CrudUsers0",
-      "RelativePath": "Uploads/a.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\a.jpeg"
     },
     {
       "Identity": "C:\\Users\\pipel\\Desktop\\practica\\CrudUsers-CSharp-Mysql\\wwwroot\\Uploads\\cosorro.jpeg",
